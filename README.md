@@ -1,6 +1,6 @@
-﻿# Agent-IPA-2020-03-21-GRP-Etika
+﻿# ISA-IPA-2023-01-01-ISY5005-GRPPREV-Xtract
 
-## SECTION 1 : S.A.R.A AIRBNB Agent
+## SECTION 1 : Xtract
 ## NUS ISS Intelligent Process Agent
 <img src="Images/chatbot.png"
      style="float: left; margin-right: 0px;" />
@@ -10,11 +10,7 @@
 
 ## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
 
-With the travel industry estimated to be worth about US$11 trillion by 2025 there is a strong necessity for businesses to leverage on IT in order to claim a piece of the market and stay competitve. At the same time, consumers are spolit for choice and always on the look out for the best deals. Accommodation planning is a big part of any travel plans and consumers may not always have the time to source for places to stay as well as building an itinerary for their trip. 
 
-To address this issue, the team has decided to produce a solution which will act as a personal conceirge for users and look for best recommendations for accomodations and it's nearby top recommended venues such as restaurants and tourist attractions. Our personal concierge, also known as 'S.A.R.A' which stands for 'Search And Retrieve App', is a chatbot which will leverage on natural language processing and robotic process automation techniques to assist users in their travel planning activities.
-
-Chatbots also known as “conversational agents” are basically software applications that mimic written or spoken human speech for the purposes of simulating a conversation or interaction with a real person. Currently there are two primary ways chatbots are offered to users which are web-based applications or standalone apps.
 
 ## SECTION 3 : CREDITS / PROJECT CONTRIBUTION
 
