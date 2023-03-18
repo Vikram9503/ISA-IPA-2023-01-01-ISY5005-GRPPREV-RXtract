@@ -16,15 +16,14 @@
 
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
-| LIM LI WEI | A0087855L | Refer to individual report | E0319479@u.nus.edu |
-| PREM CHANDRAN | A0195324A | Refer to individual report | E0384955@u.nus.edu |
-| YONG QUAN ZHI, TOMMY | A0195353Y | Refer to individual report | E0384984@u.nus.edu |
+| Vikram Sankireddypally | A0249306A | Refer to individual report | E0938911@u.nus.edu |
+ 
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-[SARA AIRBNB AGENT MARKETING VIDEO](https://www.youtube.com/watch?v=t1rJmW_MT9A)
+[Xtract Agent VIDEO](https://www.youtube.com/watch?v=t1rJmW_MT9A)
 
-[SARA AIRBNB AGENT DEMO VIDEO](https://youtu.be/UsykrTc72yw)
+[Xtract Agent  DEMO VIDEO](https://youtu.be/UsykrTc72yw)
 
 ## SECTION 5 : USER GUIDE
 
