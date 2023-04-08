@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PWA with OCR</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      h1 {
+        color: #333;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      label {
+        font-size: 18px;
+        color: #333;
+        margin-right: 10px;
+      }
+
+      input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        font-size: 16px;
+        border: 2px solid #ccc;
+        border-radius: 5px;
+      }
+
+      label[for="file-input"] {
+        font-size: 18px;
+        color: #333;
+        margin-right: 10px;
+        display: block;
+        margin-bottom: 20px;
+      }
+
+      #preview-image {
+        max-width: 100%;
+        margin-bottom: 20px;
+      }
+
+      button {
+        padding: 10px 20px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        font-size: 18px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #3e8e41;
+      }
+
+      h2 {
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      #extracted-text {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+
+      #overlay {
+        position: relative;
+      }
+
+      #overlay .box {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 0;
+        height: 0;
+        border: 2px solid #007bff;
+        background-color: rgba(0, 123, 255, 0.2);
+      }
+
+      .result-text {
+        /* position: absolute; */
+        font-size: 16px;
+        font-family: Arial;
+        white-space: pre;
+        pointer-events: none;
+        color: #007bff;
+        text-shadow: 1px 1px #fff;
+      }
+      #loading-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8);
+  z-index: 9999;
+  display: none;
+}
+
+.loading-icon {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.status-icon {
+  display: none;
+  width: 24px;
+  height: 24px;
+}
+
+.success svg path {
+  fill: #00cc00;
+}
+
+.error svg path {
+  fill: #ff0000;
+}
+
+.show {
+  display: inline-block;
+}
+
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>PWA with OCR</h1>
+      <div class="status-icon success">
+        <svg viewBox="0 0 24 24">
+          <path fill="#00cc00" d="M12,22C6.5,22,2,17.5,2,12S6.5,2,12,2s10,4.5,10,10S17.5,22,12,22z M10.7,12.7l-2.8,2.8c-0.4,0.4-1,0.4-1.4,0l-1.4-1.4c-0.4-0.4-0.4-1,0-1.4l4-4c0.4-0.4,1-0.4,1.4,0l1.4,1.4c0.4,0.4,0.4,1,0,1.4L10.7,12.7z"/>
+        </svg>
+      </div>
+      
+      <div class="status-icon error show">
+        <svg viewBox="0 0 24 24">
+          <path fill="#ff0000" d="M12,22C6.5,22,2,17.5,2,12S6.5,2,12,2s10,4.5,10,10S17.5,22,12,22z M14.6,7.4l-1.4-1.4L12,10.6L9.8,8.4l-1.4,1.4L10.6,12l-2.2,2.2l1.4,1.4L12,13.4l2.2,2.2l1.4-1.4L13.4,12L15.6,9.8L14.6,7.4z"/>
+        </svg>
+      </div>
+      
+      <div>
+        <label for="sheet-input">Google Sheet Inventory:</label>
+        <input type="text" id="sheet-input" placeholder="Enter the URL or title of your Google Sheet inventory" value="https://docs.google.com/spreadsheets/d/1BiNltufbq1F4iW5SKrtP_QaQ3wxPYPhsfGPBlyvBR7g/edit?usp=sharing" />
+      </div>
+
+      <div>
+        <label for="file-input">Upload an Image:</label>
+        <input type="file" id="file-input" accept="image/*" capture/>
+      </div>
+
+      <div>
+        <img id="preview-image" />
+      </div>
+
+      <div>
+        <button id="recognize-btn">Recognize Text</button>
+      </div>
+      <div>
+        <h2>Inventory:</h2>
+        <p id="retrieved-item"></p>
+      </div>
+      <div>
+        <h2>Extracted Text:</h2>
+        <p id="extracted-text"></p>
+        <div id="overlay"></div>
+      </div>
+    </div>
+    <div id="loading-overlay">
+        <div class="loading-icon"></div>
+      </div>
+    <script src="app.js"></script>
+    </body>
+</html>
+
