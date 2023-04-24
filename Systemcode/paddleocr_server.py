@@ -8,6 +8,8 @@ import numpy as np
 import json
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
+import os
+
 
 ocr = PaddleOCR(use_angle_cls=True, lang='en') # need to run only once to download and load model into memory
 inventoryLink = 'https://docs.google.com/spreadsheets/d/1BiNltufbq1F4iW5SKrtP_QaQ3wxPYPhsfGPBlyvBR7g/edit?usp=sharing'
@@ -114,7 +116,7 @@ def findRow(inventory,ocr_result: list):
 
 # Start WebSocket server
 async def start_server():
-    async with websockets.serve(handle_image, '10.249.145.19', 8081):
+    async with websockets.serve(handle_image, os.environ['HOST'], os.environ['PORT']):
         await asyncio.Future()
 
 asyncio.run(start_server())
