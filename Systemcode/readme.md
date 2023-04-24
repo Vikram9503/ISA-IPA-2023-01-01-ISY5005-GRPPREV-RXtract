@@ -21,11 +21,11 @@ gspread
 
 ## Using the application
 This is the portal page. You can change the inventory list by changing the `Google Sheet Inventory:`. For this guide, i am using [this public sheet](https://docs.google.com/spreadsheets/d/1BiNltufbq1F4iW5SKrtP_QaQ3wxPYPhsfGPBlyvBR7g/edit?usp=sharing "this public sheet")
-![1](Systemcode/demo/1.png)
+![](demo/1.png)
 To start, you can click `choose file` and upload a label. For this sample, i am using `web/images/test2.jpg`. There would be a preview for the uploaded image.
-![2](Systemcode/demo/2.png)
+![](demo/2.png)
 Click `Recognize Text` to start the process. After processing, the system would help you to find the item in the inventory and also display all the texts detected from the image.
-![3](Systemcode/demo/3.png)
+![](demo/3.png)
 
 **Note**: If you need to test it in mobile, please use a valid `HOST` instead of localhost as well as hosting the webpage (`web`) in a server. 
 
