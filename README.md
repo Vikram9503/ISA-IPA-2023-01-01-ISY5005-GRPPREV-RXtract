@@ -17,6 +17,7 @@
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
 | Vikram Sankireddypally | A0249306A | Refer to individual report | E0938911@u.nus.edu |
+| Chiu Man Shan (Roy) | A0249252A | System design and implementation | e0938857@u.nus.edu |
  
 
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
