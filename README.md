@@ -10,7 +10,7 @@
 
 ## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
 
-For a more detailed User Guide
+For a more detailed [Summary](/ProjectReport)
 
 ## SECTION 3 : CREDITS / PROJECT CONTRIBUTION
 
