@@ -38,7 +38,3 @@ For a more detailed   [User Guide](/ProjectReport)
 
 For a more detailed [Project Report](/ProjectReport)
 
-
-## SECTION 7 : MISCELLANEOUS
-
------
