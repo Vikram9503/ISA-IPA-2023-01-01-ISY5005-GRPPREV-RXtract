@@ -22,7 +22,7 @@ For a more detailed User Guide
 | Kuch Swee Cheng (Ethan)| A0249264X | System design and Presentations | e0938869@u.nus.edu |
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-Business & Technical videos are uploaded into https://canvas.nus.edu.sg/ Cource folder
+Business & Technical videos are uploaded into https://canvas.nus.edu.sg/ folder.
 
 
 ## SECTION 5 : USER GUIDE
