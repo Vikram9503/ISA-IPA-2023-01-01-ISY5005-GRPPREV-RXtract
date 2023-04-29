@@ -28,9 +28,8 @@
 
 ## SECTION 5 : USER GUIDE
 
-[User Guide](Systemcode/Readme.md)
 
-For a more detailed look at read me under system code.  
+For a more detailed   [User Guide](Systemcode/Readme.md)
 
 
 
