@@ -2,7 +2,7 @@
 
 ## SECTION 1 : Xtract
 ## NUS ISS Intelligent Process Agent
-<img src="Images/chatbot.png"
+<img src="Images/xtract.png"
      style="float: left; margin-right: 0px;" />
 
 <br>
