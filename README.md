@@ -16,10 +16,10 @@
 
 | Official Full Name  | Student ID (MTech Applicable)  | Work Items (Who Did What) | Email (Optional) |
 | :------------ |:---------------:| :-----| :-----|
-| Vikram Sankireddypally | A0249306A | Refer to individual report | E0938911@u.nus.edu |
+| Vikram Sankireddypally | A0249306A | System design and Code review | E0938911@u.nus.edu |
 | Chiu Man Shan (Roy) | A0249252A | System design and implementation | e0938857@u.nus.edu |
- | Chiu Man Shan (Roy) | A0249252A | System design and implementation | e0938857@u.nus.edu |
-| Chiu Man Shan (Roy) | A0249252A | System design and implementation | e0938857@u.nus.edu |
+ | Chiu Man Shan (Roy) | A0249252A | System design and Documentaton | e0938857@u.nus.edu |
+| Chiu Man Shan (Roy) | A0249252A | System design and Documentaton | e0938857@u.nus.edu |
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
 [Xtract Agent VIDEO](https://www.youtube.com/watch?v=t1rJmW_MT9A)
