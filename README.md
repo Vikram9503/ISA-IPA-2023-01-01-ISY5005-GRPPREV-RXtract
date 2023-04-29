@@ -22,9 +22,9 @@ For a more detailed User Guide
 | Kuch Swee Cheng (Ethan)| A0249264X | System design and Presentations | e0938869@u.nus.edu |
 ## SECTION 4 : VIDEO OF SYSTEM MODELLING & USE CASE DEMO
 
-[Xtract Agent VIDEO](https://www.youtube.com/watch?v=t1rJmW_MT9A)
-
-[Xtract Agent  DEMO VIDEO](https://youtu.be/UsykrTc72yw)
+Uploaded into https://canvas.nus.edu.sg/
+Business 
+Technical
 
 ## SECTION 5 : USER GUIDE
 
