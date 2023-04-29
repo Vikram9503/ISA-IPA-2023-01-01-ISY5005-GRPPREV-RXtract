@@ -1,0 +1,6 @@
+paddlepaddle
+websockets
+numpy
+gspread
+paddleocr
+oauth2client
