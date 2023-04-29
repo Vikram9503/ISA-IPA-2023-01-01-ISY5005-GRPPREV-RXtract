@@ -10,7 +10,7 @@
 
 ## SECTION 2 : EXECUTIVE SUMMARY / PAPER ABSTRACT
 
-
+For a more detailed User Guide
 
 ## SECTION 3 : CREDITS / PROJECT CONTRIBUTION
 
@@ -29,7 +29,7 @@
 ## SECTION 5 : USER GUIDE
 
 
-For a more detailed   [User Guide](Systemcode/Readme.md)
+For a more detailed   [User Guide](/ProjectReport)
 
 
 
@@ -37,7 +37,8 @@ For a more detailed   [User Guide](Systemcode/Readme.md)
 
 ## SECTION 6 : PROJECT REPORT / PAPER
 
-[Download the Project Report]
+For a more detailed [Project Report](/ProjectReport)
+
 
 ## SECTION 7 : MISCELLANEOUS
 
