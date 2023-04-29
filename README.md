@@ -30,29 +30,9 @@
 
 [Download the user guide](http://tiny.cc/q2m5nz)
 
-For a more detailed look at user guide, please refer to appendix 1 of the report for the user guide. 
+For a more detailed look at read me under system code.  
 
-Please ensure you are using python 3.6 or higher.
-Once you have downloaded and unzipped the project file, CD into your project root folder "<your-file-path>/ISA-IPA-2020-03-21-IS01PT-GRP-Etika-SARA_AirbnbAgent/SystemCode"
 
-**Step 1**. Create a python env.
-"python3 -m venv env" OR use "python -m venv env"
-
-**Step 2**. Activate the python env. You should see (env) next to your command line.
-For Mac: "source env/bin/activate"
-For Windows: "env\Scripts\activate"
-
-**Step 3**. In the command prompt/terminal CD to the project folder "<your-file-path>/ISA-IPA-2023-01-01-IS5005-GRPPREV-Xtract/SystemCode”. Enter "pip install -r requirements.txt" OR "pip3 install -r requirements.txt".  This will install all the required dependencies.
-
-**Step 4**. Once installation is complete, enter " flask run". This will deploy your server locally on your pc.
-
-**Step 5**.  
-**Step 6**. 
-**Step 7**. 
-**Step 8**.  
-**Step 9**. 
-
-**Additional notes**: You can also test dialogs from the google assistant via the dialogflow website located on the right side of the screen.
 
 -----------------------------------------------------------------------------------------------------
 
