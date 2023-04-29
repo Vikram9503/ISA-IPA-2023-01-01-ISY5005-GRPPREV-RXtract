@@ -1,4 +1,4 @@
-﻿# ISA-IPA-2023-01-01-ISY5005-GRPPREV-Xtract
+﻿# ISA-IPA-2023-01-01-ISY5005-GRPPREV-RXtract
 
 ## SECTION 1 : Xtract
 ## NUS ISS Intelligent Process Agent
